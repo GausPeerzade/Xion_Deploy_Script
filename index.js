@@ -9,8 +9,7 @@ import fs from "fs";
 
 const rpc = "https://rpc.xion-testnet-1.burnt.com:443";
 
-const mnemonic =
-  "road wheel quick abstract dolphin hotel brush raise equip notice shield door typical amount always bronze staff old own story company sketch decrease brisk";
+const mnemonic = "";
 
 const wallet = await DirectSecp256k1HdWallet.fromMnemonic(mnemonic, {
   prefix: "xion",
